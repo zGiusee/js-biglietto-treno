@@ -8,6 +8,10 @@
     box-sizing: border-box;
  }
 
+ *{
+    font-family: 'Poppins', sans-serif;
+ }
+
  /***************
    SITE SECTION
  ***************/
@@ -16,13 +20,52 @@
 
  body{
     height: 100vh;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(36, 36, 36);
  }
 
-
  .train-info-container{
-    background-color: lightskyblue;
-    width: 600px;
-    height: 400px;
+    background-color: rgb(154, 82, 248, 250);
+    width: 350px;
+    height: 550px;
+    border: 3px solid white;
     border-radius: 10px;
+ }
+
+ /* CARD SECTION */
+
+ .title-font{
+    font-size: 32px;
+ }
+
+ .my-fs-xxl{
+    font-size: 60px;
+ }
+
+ /* BUTTONS */
+
+ .my-purple-btn{
+    background-color: white;
+    color: rgb(154, 82, 248, 250);
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 0.7s;
+ }
+
+ .my-purple-btn:hover{
+    background-color: rgb(154, 82, 248, 250);
+    color: white;
+    border: 1px solid white;
+ }
+
+ /* COLORS */
+ 
+ .purple{
+    color: rgb(154, 82, 248, 250);
+ }
+
+ .purple-bg{
+    color: rgb(154, 82, 248, 250);
+    background-color: white;
  }

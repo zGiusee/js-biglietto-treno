@@ -11,7 +11,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 <!-- PROBLEMI E SOTTO PROBLEMI -->
 
 1 - Chiedere all'utente il numero di chilometri che vuole percorrere:
-1.1 - Esegiure il calolo in base ai km (0.21 € al km);
+1.1 - Esegiure il calcolo della tariffa in base ai km (0.21 € al km);
 2 - Chiedere all'utente la sua età;
 2.1 - Specificare gli sconti per gli under 17 (20%);
 2.2 - Specificare gli sconti per gli over 65 (40%);

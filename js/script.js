@@ -10,26 +10,26 @@ let ticketFullPrice = km;
 let message;
 
 // ESEGUO I CALCOLI
-if(eta >= "65"){
+if(eta >= 65){
     sconto = ticketFullPrice * 40 / 100;
     ticketFullPrice = km - sconto;
     // ARROTONDO IL PREZZO FINALE
-    ticketFullPrice = ticketFullPrice.toFixed(0)
+    ticketFullPrice = ticketFullPrice.toFixed(0);
     // AGGIUNGO UN MESSAGGIO DI AVVISO
     message = "Complimenti rientri nella categoria degli Over.65 e questo ti garantisce uno sconto del 40%! Il tuo prezzo finale sarà:"
 }
-else if(eta < "18"){
+else if(eta < 18){
     sconto = ticketFullPrice * 20 / 100;
     ticketFullPrice = km - sconto;
     // ARROTONDO IL PREZZO FINALE
-    ticketFullPrice = ticketFullPrice.toFixed(0)
+    ticketFullPrice = ticketFullPrice.toFixed(0);
     // AGGIUNGO UN MESSAGGIO DI AVVISO
     message = "Complimenti rientri nella categoria Under.18 e questo ti garantisce uno sconto del 20%! Il tuo prezzo finale sarà:"
 
 }
 else{
     // ARROTONDO IL PREZZO FINALE
-    ticketFullPrice = ticketFullPrice.toFixed(0)
+    ticketFullPrice = ticketFullPrice.toFixed(0);
     // AGGIUNGO UN MESSAGGIO DI AVVISO
     message = "Ecco il tuo prezzo finale."
 }
@@ -39,7 +39,3 @@ else{
 document.getElementById(`ticketprice`).innerHTML= ticketFullPrice;
 document.getElementById(`avvisosconto`).innerHTML= message;
 
-console.log(km)
-console.log(eta)
-console.log(ticketFullPrice)
-console.log(Sconto)
